@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BRR</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!--font awesome icons-->
+    <script src="https://use.fontawesome.com/c659082c76.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+   
+    <style>
+      .large,.small,.heading-font{
+        font-family: 'Dancing Script', cursive;
+        
+      }
+
+      .heading-font{
+        font-size: 2.8rem;
+        font-weight: bold;
+      }
+
+      .button-font{
+        font-weight: bold;
+        
+      }
+
+      .medium-font{
+              font-size: 1.5em;
+      }
+
+    
+   
+      .frstdiv{
+       top: -35px;
+       /*z-index: -1;*/
+       
+      }
+
+      .parallax-container {
+       height: 150px;
+       width: 100%;
+      }
+
+      .divabc{
+        margin-bottom: 20px;
+      }
+
+      .iconsize{
+              font-size: 3.5em;
+      }
+
+      @media only screen and (min-width: 500px){
+        .small{
+          visibility: hidden;
+        }
+        .large{
+          visibility: visible;
+        }
+      }
+
+      @media only screen and (max-width: 500px){
+        .small{
+          visibility: visible;
+        }
+        .large{
+          visibility: hidden;
+        }
+
+        .parallax-container {
+          height: 100px;
+          width: 100%;
+        }   
+      }
+      
+      
+    </style>
+   
+
+    
+</head>
+<body>
+    <!-- Nav bar-->
+    <header>
+
+      <nav class = "yellow accent-4">
+        <div class="container nav-wrapper">
+          <a href="#!" class="brand-logo large heading-font">Books-Rent-Review</a>
+          <a href="#!" class="brand-logo small">B-R-R</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">GENRE</a></li>
+            <li><a href="#author">AUTHORS</a></li>
+            <li><a href="#">POPULAR</a></li>
+            <li><a href="#Quiz">QUIZ & TRIVIA</a></li>
+            <li><a href="#">LOGIN</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">GENRE</a></li>
+        <li><a href="#">AUTHORS</a></li>
+        <li><a href="#">POPULAR</a></li>
+        <li><a href="#Quiz">QUIZ & TRIVIA</a></li>
+        <li><a href="#">LOGIN</a></li>
+      </ul>
+
+    </header>
+
+    <!--main content-->
+    <main>
+
+      <!--popular-->
+      <section class="blue-grey lighten-5">
+      <section class="container section">
+        <div class="carousel frstdiv">
+          <a class="carousel-item" href="#one!"><img src="\assets\book1.jpg"></a>
+          <a class="carousel-item" href="#two!"><img src="\assets\book2.jpg"></a>
+          <a class="carousel-item" href="#three!"><img src="\assets\book3.jpg"></a>
+          <a class="carousel-item" href="#four!"><img src="\assets\book4.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="\assets\book5.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="\assets\book6.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="\assets\book7.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="\assets\book8.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="\assets\book9.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="\assets\book10.jpg"></a>
+        </div>
+        
+        <div class="row container">
+            <a class="waves-effect waves-light btn button-font col s12 l12">VIEW ALL BOOKS</a>
+        </div>
+      </section>
+    </section>
+
+      <div class="divider"></div>
+
+      <!--Authors-->
+      <section class="container section" id="author">
+        <div class="heading-font yellow-text text-accent-4">Trending Authors</div>
+
+        <div class="divider"></div>
+
+        <div class="row section valign-wrapper">
+          <div class="col s6 m4 l4">
+            <img class="responsive-img" src="\assets\author1.jpg">
+          </div>
+          <div class="col s6 m8 l8">
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Doloribus quia omnis dolore inventore perspiciatis,
+               illo officia non culpa similique voluptates quod, 
+               expedita facere in. Consequuntur repellat quae nihil ab magni?</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper">
+          <div class="col s6 m8 l8">
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Doloribus quia omnis dolore inventore perspiciatis,
+               illo officia non culpa similique voluptates quod, 
+               expedita facere in. Consequuntur repellat quae nihil ab magni?</p>
+          </div>
+          <div class="col s6 m4 l4">
+            <img class="responsive-img" src="\assets\author2.jpg">
+          </div>
+        </div>
+
+        <div class="row container">
+          <a class="waves-effect waves-light btn col s12 l12">VIEW MORE</a>
+        </div>
+        
+      </section>
+      
+     <!--Parallax1-->
+     <section class="section">
+      <div class="parallax-container">
+        <div class="parallax"><img class="responsive-img" src="\assets\parallax1.jpg"></div>
+      </div>
+     </section>      
+
+      <!--genre-->
+      <section class="container section" id="genre">
+        <div class="header flow-text heading-font yellow-text text-accent-4 center">Genre</div>
+
+        <div class="divider divabc"></div>
+
+        <div class="row">
+          <a class="waves-effect waves-light btn-large col s3 m3 l3  amber">Suspense</a>
+          <a class="waves-effect waves-light btn-large col s6 m6 l6 ">Biography</a>
+          <a class="waves-effect waves-light btn-large col s3 m3 l3  pink">Romantic</a>
+        </div>
+        <div class="row">
+          <a class="waves-effect waves-light btn-large col s2 m2 l2  green">Adult</a>
+          <a class="waves-effect waves-light btn-large col s2 m2 l2 ">Crime</a>
+          <a class="waves-effect waves-light btn-large col s4 m4 l4   red darken-4">Thrillers</a>
+          <a class="waves-effect waves-light btn-large col s4 m4 l4  amber">Classics</a>
+        </div>
+        <div class="row">
+          <a class="waves-effect waves-light btn-large col s12 m12 l12 blue-grey lighten-5 blue-text">EXPLORE More</a>
+        </div>
+      </section>
+
+
+      <!--Parallax2-->
+     <section class="section">
+      <div class="parallax-container">
+        <div class="parallax"><img class="responsive-img" src="\assets\parallax1.jpg"></div>
+      </div>
+     </section>
+
+
+      <!--quiz&trivia-->
+
+      <section class="container section" id="Quiz">
+        <div class="header flow-text heading-font yellow-text text-accent-4">Quiz & Trivia</div>
+
+        <div class="divider divabc"></div>
+
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card medium sticky-action">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator responsive-img" src="\assets\quiz1.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Harry potter Quiz</span>
+                <p>You think you know all about Harry potter!! Then lets play!!</p>
+              </div>
+              <div class="card-action">
+                <a href="#">CLICK ME To Play</a>
+              </div>
+                
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3">
+            <div class="card medium blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title activator">TRIVIA</span>
+                <p>Did you know Alchemist was not the first book of Paulo Coelho!!</p>
+                <div class="divider"></div>
+                <span class="card-title activator">ANSWER<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-action">
+                <p>FOR MORE INTRESTING BOOK TRIVIA</p>
+                <a href="#">CLICK ME</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">The Pilgrimage<i class="material-icons right">close</i></span>
+                <p>Paulo Coelho is a Brazilian author.
+                  When Coelho was 38 years old, he had a spiritual awakening in Spain and wrote about it in his first book,
+                  The Pilgrimage.
+                  It was his second book, The Alchemist, which made him famous.
+                  He’s sold 35 million copies and now writes about one book every two years.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3 hide-on-small-only">
+            <div class="card medium sticky-action">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator responsive-img" src="\assets\author4.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Jumpa Lahiri Quiz</span>
+                <p>You think you know all about Harry potter!! Then lets play!!</p>
+              </div>
+              <div class="card-action">
+                <a href="#">CLICK ME To Play</a>
+              </div>  
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3 hide-on-small-only">
+            <div class="card medium blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title activator">TRIVIA</span>
+                <p>Did you know Alchemist was not the first book of Paulo Coelho!!</p>
+                <div class="divider"></div>
+                <span class="card-title activator">ANSWER<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-action">
+                <p>FOR MORE INTRESTING BOOK TRIVIA</p>
+                <a href="#">CLICK ME</a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">The Pilgrimage<i class="material-icons right">close</i></span>
+                <p>Paulo Coelho is a Brazilian author.
+                  When Coelho was 38 years old, he had a spiritual awakening in Spain and wrote about it in his first book,
+                  The Pilgrimage.
+                  It was his second book, The Alchemist, which made him famous.
+                  He’s sold 35 million copies and now writes about one book every two years.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+    </main>
+       
+      
+
+
+
+
+
+
+
+
+      <!-- footer-->
+
+      <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                  <p class="iconsize heading-font yellow-text text-accent-4">About us</p>
+                  <p class="grey-text text-lighten-4 medium-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus quia omnis dolore inventore perspiciatis,
+                    illo officia non culpa similique voluptates quod, 
+                    expedita facere in. Consequuntur repellat quae nihil ab magni?</p>
+                  
+                  <p class="iconsize heading-font yellow-text text-accent-4">Connect</p>
+                  <p class="grey-text text-lighten-4 medium-font">You can connect with us at Social media platforms or Email us. Reviews are always welcomed</p>
+                  <div class="row section">
+                    <div class="col s3 l3 center-align">
+                      <a href="#"><i class="fa fa-facebook iconsize center-align yellow-text text-accent-4"></i></a>
+                    </div>
+                    <div class="col s3 l3 center-align">
+                      <a href="mailto:vedakshat123@gmail.com"><i class="fa fa-envelope iconsize yellow-text text-accent-4"></i></a>
+                    </div>
+                    <div class="col s3 l3 center-align">
+                      <a href="#"><i class="fa fa-instagram iconsize yellow-text text-accent-4"></i></a>
+                    </div>
+                    <div class="col s3 l3 center-align">
+                      <a href="tell:9110024432"><i class="fa fa-phone iconsize yellow-text text-accent-4"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l4 offset-l2 s12 ">
+                    <ul>
+                      <li>
+                        <a class="grey-text text-lighten-3" href="mailto:vedakshat123@gmail.com">
+                          <p class="button-font medium-font center-align blue">Email</p>
+                        </a>
+                        <p class="center-align margin-remover-b margin-remover-t">vedakshat123@gmail.com</p>
+                        <p class="center-align margin-remover-b margin-remover-t">contact@ShailMa.com</p>
+                      </li>
+                      <li>
+                        <a class="grey-text text-lighten-3" href="#">
+                          <p class="button-font medium-font center-align blue">Facebook</p>
+                        </a>
+                        <p class="center-align margin-remover-b margin-remover-t">https://www.linkedin.com/in/akshat-ved-74823519b</p>
+                      </li>
+                      <li>
+                        <a class="grey-text text-lighten-3" href="#">
+                          <p class="button-font medium-font center-align blue">Instagram</p>
+                        </a>
+                        <p class="center-align margin-remover-b margin-remover-t">https://www.linkedin.com/in/akshat-ved-74823519b</p>
+                      </li>
+                      <li>
+                        <a class="grey-text text-lighten-3" href="tell:9110024432">
+                          <p class="button-font medium-font center-align blue">Phone</p>
+                        </a>
+                        <p class="center-align ">Phone: (+91) 9110024432</p>
+                        <p class="center-align ">Whatsapp: (+91) 8873471744</p>
+                        
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <p class="center-align button-font medium-font">ShailMa Inc Ltd. </p>
+            <p class="center-align"> © 2020 Copyright </p>
+          </div>
+        </div>
+      </footer>
+
+
+
+    
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+
+        $('.carousel').carousel();
+        
+        $('.parallax').parallax();
+        
+        $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators:true
+        });
+
+        });
+
+       
+    </script>
+    
+</body>
+</html>
